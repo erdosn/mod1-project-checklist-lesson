@@ -1,4 +1,10 @@
 
+# Motivation
+write some blurb about why you are doing your project. What you interested in. 
+
+# Outline
+* [Learning Stuff Section](#Learning-Stuff)
+
 # Notebook
 * Needs to be clean and organized
     * markdowns
@@ -20,16 +26,26 @@
         * questions clearly stated
             * question
             * investigation + eda
-            * conclusions + insights
+            * conclusions + insights + recommendation
         * eda summary
     * modeling
         * model
         * iterate by using those results to make a new model
         * repeat 
-        * final model - do not have multicollinearity
+        * final model - **do not have multicollinearity**
+            * **DON'T**
+                * have multicollinearity
+                * pvalues > 0.05
+                * P(F) > 0.05
             * your price equation written out 
                 * $price = 23\text{sqft_living} + \dots$
-            * final model summary
+                * writing a latex equation
+                
+                $$p = \beta_1 f_1 + \beta_2 f_2 + \dots$$
+                
+                $$p = 1232 sqftliving + 3232 grade + \dots$$
+                
+            * final model sm.OLS.summary()
             * model validation
                 * train test split
                 * cross validation in sklearn using
@@ -74,3 +90,8 @@ or
 * 800 words
 * add some visuals
 * have fun with it
+
+# Learning Stuff
+Here we will learn things about other things
+
+[Back to Outline](#Outline)
